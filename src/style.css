@@ -1,45 +1,63 @@
-body{background-color: purple;
+body{ background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 display:flex;
-justify-content;:center}
+justify-content:center;
+min-height: 100vh;
+align-items: flex-start;}
 .my-work{
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-gap:10px;
 padding:10px;
-position: relative;
-left:-100px;
+
 
 }
-.container{width:700px;
-    
+.container{width:800px;
+   
     padding: 10px;
     margin:0 auto;
 }
 li{text-decoration: none;
-    display:flex;
-
+    border:none;
+    display:flex
 }
-img{border-radius: 20px;
+img{
 border: 1px solid }
-.icons{display:flex;
+.icons{
+    display:flex;
 gap:16px;
 justify-content: end;
-top:-300px;
-position:relative;
-left:-70px;}
 
-img:hover{transform: scale(1.0);
+text-decoration: none;
+border:none;
+}
+
+img:hover{transform: scale(1.1);
 cursor:pointer;}
-h1{text-align: center;}
-header p{display: flex;
-justify-content: end;
-position:relative;
-top: -350px;
-font-size: 15px;}
-.my-work div{ border:1px solid black;
-background-color: beige;
-padding:5px}
-h2{text-align: center;
-font-size:40px;}
+h1{text-align: center;
+}
+header p{
+   
 
+font-size: 15px;
+margin-bottom: 10px;
+}
+header{
+    display:flex;
+align-items: center;
+gap:2px;}
+.my-work div{ 
+    border:1px solid black;
+background-color: beige;
+padding:5px;
+border-radius: 10px;
+height:350px}
+
+h2{
+    text-align: center;
+font-size:40px;
+}
+
+.me{background-color: azure;
+padding: 10px;
+border:1px solid black;}
