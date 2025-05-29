@@ -66,7 +66,13 @@ h2{
 font-size:50px;
 }
 
-.my-links{text-align: center;}
+.my-links{text-align: center;
+}
+
+.material-symbols-outlined {
+    font-size: 90px !important;
+    color:pink;
+transform:rotate(-10deg);}
 
 footer{
 width:100%;
